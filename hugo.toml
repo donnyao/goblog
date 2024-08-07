@@ -1,3 +1,38 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://www.kiboud.site/"
+title = "kiboud.site"
+languageCode = "en"
+theme = "dream"
+
+[params]
+  lightTheme = "emerald"
+  darkTheme = "forest"
+  
+  images = ["me/background.jpg"]
+  
+  author = "kiboud"
+  description = "test description"
+  avatar = "logoblog-white.jpg"
+  headerTitle = "cloud"
+  motto = "let me try"
+
+  email = "g1enyy0ung@gmail.com"
+ 
+  siteStartYear = 2021
+  favicon = "favicon.ico"
+
+  footerBottomText = "do"
+
+  showTableOfContents = true
+
+  showSummaryCoverInPost = true
+  showPrevNextPost = true
+
+#  rss = true
+
+#  customSyntaxHighlighting = true
+
+#  stickyNav = true
+
+[services]
+  [services.disqus]
+    shortname = 'kiboud.disqus.com'
